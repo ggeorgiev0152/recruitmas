@@ -32,7 +32,7 @@ const Marquee: React.FC<MarqueeProps> = ({ reverse = false }) => {
           ))}
         </div>
       </div>
-      <style jsx>{`
+      <style>{`
         .marquee-track {
           display: flex;
           width: max-content;
